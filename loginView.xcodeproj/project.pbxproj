@@ -19,6 +19,19 @@
 		4919E6DF25F8A2A7001367FB /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4919E6DE25F8A2A7001367FB /* CollectionViewController.swift */; };
 		4919E6E225F8A2C9001367FB /* EmptyCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4919E6E125F8A2C9001367FB /* EmptyCardViewController.swift */; };
 		4919E6E525F8A2F5001367FB /* CardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4919E6E425F8A2F5001367FB /* CardViewController.swift */; };
+		7CC20A1825F8A8AA00E58770 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC20A1625F8A8AA00E58770 /* CategoryViewController.swift */; };
+		7CC20A1925F8A8AA00E58770 /* CategoryListCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC20A1725F8A8AA00E58770 /* CategoryListCollectionViewCell.swift */; };
+		7CC20A1E25F8A8B100E58770 /* MainCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC20A1B25F8A8B100E58770 /* MainCollectionViewCell.swift */; };
+		7CC20A1F25F8A8B100E58770 /* MainDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC20A1C25F8A8B100E58770 /* MainDetailViewController.swift */; };
+		7CC20A2025F8A8B100E58770 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC20A1D25F8A8B100E58770 /* MainViewController.swift */; };
+		7CC20A2825F8A8BC00E58770 /* flower_06.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CC20A2225F8A8BB00E58770 /* flower_06.png */; };
+		7CC20A2925F8A8BC00E58770 /* flower_01.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CC20A2325F8A8BB00E58770 /* flower_01.png */; };
+		7CC20A2A25F8A8BC00E58770 /* flower_03.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CC20A2425F8A8BB00E58770 /* flower_03.png */; };
+		7CC20A2B25F8A8BC00E58770 /* flower_02.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CC20A2525F8A8BC00E58770 /* flower_02.png */; };
+		7CC20A2C25F8A8BC00E58770 /* flower_04.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CC20A2625F8A8BC00E58770 /* flower_04.png */; };
+		7CC20A2D25F8A8BC00E58770 /* flower_05.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CC20A2725F8A8BC00E58770 /* flower_05.png */; };
+		7CC20A3125F8A8C700E58770 /* SearchListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC20A2F25F8A8C700E58770 /* SearchListViewController.swift */; };
+		7CC20A3225F8A8C700E58770 /* SearchListCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC20A3025F8A8C700E58770 /* SearchListCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +49,19 @@
 		4919E6DE25F8A2A7001367FB /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
 		4919E6E125F8A2C9001367FB /* EmptyCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyCardViewController.swift; sourceTree = "<group>"; };
 		4919E6E425F8A2F5001367FB /* CardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardViewController.swift; sourceTree = "<group>"; };
+		7CC20A1625F8A8AA00E58770 /* CategoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
+		7CC20A1725F8A8AA00E58770 /* CategoryListCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryListCollectionViewCell.swift; sourceTree = "<group>"; };
+		7CC20A1B25F8A8B100E58770 /* MainCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainCollectionViewCell.swift; sourceTree = "<group>"; };
+		7CC20A1C25F8A8B100E58770 /* MainDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainDetailViewController.swift; sourceTree = "<group>"; };
+		7CC20A1D25F8A8B100E58770 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		7CC20A2225F8A8BB00E58770 /* flower_06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flower_06.png; sourceTree = "<group>"; };
+		7CC20A2325F8A8BB00E58770 /* flower_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flower_01.png; sourceTree = "<group>"; };
+		7CC20A2425F8A8BB00E58770 /* flower_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flower_03.png; sourceTree = "<group>"; };
+		7CC20A2525F8A8BC00E58770 /* flower_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flower_02.png; sourceTree = "<group>"; };
+		7CC20A2625F8A8BC00E58770 /* flower_04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flower_04.png; sourceTree = "<group>"; };
+		7CC20A2725F8A8BC00E58770 /* flower_05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flower_05.png; sourceTree = "<group>"; };
+		7CC20A2F25F8A8C700E58770 /* SearchListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchListViewController.swift; sourceTree = "<group>"; };
+		7CC20A3025F8A8C700E58770 /* SearchListCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchListCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +94,10 @@
 		3295AC5225E7998800292F7A /* loginView */ = {
 			isa = PBXGroup;
 			children = (
+				7CC20A1525F8A88600E58770 /* Main */,
+				7CC20A1425F8A88100E58770 /* Search */,
+				7CC20A1325F8A87D00E58770 /* Images */,
+				7CC20A1225F8A87700E58770 /* Category */,
 				4919E6D125F8A1F2001367FB /* CardList */,
 				3295AC5325E7998800292F7A /* AppDelegate.swift */,
 				3295AC5525E7998800292F7A /* SceneDelegate.swift */,
@@ -91,6 +121,47 @@
 				4919E6E125F8A2C9001367FB /* EmptyCardViewController.swift */,
 			);
 			path = CardList;
+			sourceTree = "<group>";
+		};
+		7CC20A1225F8A87700E58770 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				7CC20A1725F8A8AA00E58770 /* CategoryListCollectionViewCell.swift */,
+				7CC20A1625F8A8AA00E58770 /* CategoryViewController.swift */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		7CC20A1325F8A87D00E58770 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				7CC20A2325F8A8BB00E58770 /* flower_01.png */,
+				7CC20A2525F8A8BC00E58770 /* flower_02.png */,
+				7CC20A2425F8A8BB00E58770 /* flower_03.png */,
+				7CC20A2625F8A8BC00E58770 /* flower_04.png */,
+				7CC20A2725F8A8BC00E58770 /* flower_05.png */,
+				7CC20A2225F8A8BB00E58770 /* flower_06.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		7CC20A1425F8A88100E58770 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				7CC20A3025F8A8C700E58770 /* SearchListCollectionViewCell.swift */,
+				7CC20A2F25F8A8C700E58770 /* SearchListViewController.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		7CC20A1525F8A88600E58770 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				7CC20A1B25F8A8B100E58770 /* MainCollectionViewCell.swift */,
+				7CC20A1C25F8A8B100E58770 /* MainDetailViewController.swift */,
+				7CC20A1D25F8A8B100E58770 /* MainViewController.swift */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,9 +221,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CC20A2825F8A8BC00E58770 /* flower_06.png in Resources */,
 				3295AC6025E7998B00292F7A /* LaunchScreen.storyboard in Resources */,
+				7CC20A2D25F8A8BC00E58770 /* flower_05.png in Resources */,
+				7CC20A2C25F8A8BC00E58770 /* flower_04.png in Resources */,
 				3295AC5D25E7998B00292F7A /* Assets.xcassets in Resources */,
+				7CC20A2B25F8A8BC00E58770 /* flower_02.png in Resources */,
+				7CC20A2925F8A8BC00E58770 /* flower_01.png in Resources */,
 				3295AC5B25E7998800292F7A /* Main.storyboard in Resources */,
+				7CC20A2A25F8A8BC00E58770 /* flower_03.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,14 +240,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CC20A1825F8A8AA00E58770 /* CategoryViewController.swift in Sources */,
 				3295AC6B25E7B4F400292F7A /* LoginViewController.swift in Sources */,
 				4919E6D325F8A202001367FB /* InsertModel.swift in Sources */,
+				7CC20A1925F8A8AA00E58770 /* CategoryListCollectionViewCell.swift in Sources */,
 				4919E6D625F8A213001367FB /* CollectionViewCell.swift in Sources */,
 				4919E6DF25F8A2A7001367FB /* CollectionViewController.swift in Sources */,
 				3295AC5425E7998800292F7A /* AppDelegate.swift in Sources */,
+				7CC20A3125F8A8C700E58770 /* SearchListViewController.swift in Sources */,
+				7CC20A2025F8A8B100E58770 /* MainViewController.swift in Sources */,
+				7CC20A1E25F8A8B100E58770 /* MainCollectionViewCell.swift in Sources */,
 				4919E6E225F8A2C9001367FB /* EmptyCardViewController.swift in Sources */,
+				7CC20A1F25F8A8B100E58770 /* MainDetailViewController.swift in Sources */,
 				3295AC7125E7CB9B00292F7A /* DBLoginCheck.swift in Sources */,
 				4919E6E525F8A2F5001367FB /* CardViewController.swift in Sources */,
+				7CC20A3225F8A8C700E58770 /* SearchListCollectionViewCell.swift in Sources */,
 				3295AC5625E7998800292F7A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
