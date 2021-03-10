@@ -14,6 +14,11 @@
 		3295AC6025E7998B00292F7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3295AC5E25E7998B00292F7A /* LaunchScreen.storyboard */; };
 		3295AC6B25E7B4F400292F7A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3295AC6A25E7B4F400292F7A /* LoginViewController.swift */; };
 		3295AC7125E7CB9B00292F7A /* DBLoginCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3295AC7025E7CB9B00292F7A /* DBLoginCheck.swift */; };
+		4919E6D325F8A202001367FB /* InsertModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4919E6D225F8A202001367FB /* InsertModel.swift */; };
+		4919E6D625F8A213001367FB /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4919E6D525F8A213001367FB /* CollectionViewCell.swift */; };
+		4919E6DF25F8A2A7001367FB /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4919E6DE25F8A2A7001367FB /* CollectionViewController.swift */; };
+		4919E6E225F8A2C9001367FB /* EmptyCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4919E6E125F8A2C9001367FB /* EmptyCardViewController.swift */; };
+		4919E6E525F8A2F5001367FB /* CardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4919E6E425F8A2F5001367FB /* CardViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,11 @@
 		3295AC6125E7998C00292F7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3295AC6A25E7B4F400292F7A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		3295AC7025E7CB9B00292F7A /* DBLoginCheck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBLoginCheck.swift; sourceTree = "<group>"; };
+		4919E6D225F8A202001367FB /* InsertModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InsertModel.swift; sourceTree = "<group>"; };
+		4919E6D525F8A213001367FB /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		4919E6DE25F8A2A7001367FB /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		4919E6E125F8A2C9001367FB /* EmptyCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyCardViewController.swift; sourceTree = "<group>"; };
+		4919E6E425F8A2F5001367FB /* CardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +68,7 @@
 		3295AC5225E7998800292F7A /* loginView */ = {
 			isa = PBXGroup;
 			children = (
+				4919E6D125F8A1F2001367FB /* CardList */,
 				3295AC5325E7998800292F7A /* AppDelegate.swift */,
 				3295AC5525E7998800292F7A /* SceneDelegate.swift */,
 				3295AC5925E7998800292F7A /* Main.storyboard */,
@@ -68,6 +79,18 @@
 				3295AC7025E7CB9B00292F7A /* DBLoginCheck.swift */,
 			);
 			path = loginView;
+			sourceTree = "<group>";
+		};
+		4919E6D125F8A1F2001367FB /* CardList */ = {
+			isa = PBXGroup;
+			children = (
+				4919E6D225F8A202001367FB /* InsertModel.swift */,
+				4919E6D525F8A213001367FB /* CollectionViewCell.swift */,
+				4919E6E425F8A2F5001367FB /* CardViewController.swift */,
+				4919E6DE25F8A2A7001367FB /* CollectionViewController.swift */,
+				4919E6E125F8A2C9001367FB /* EmptyCardViewController.swift */,
+			);
+			path = CardList;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,8 +164,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				3295AC6B25E7B4F400292F7A /* LoginViewController.swift in Sources */,
+				4919E6D325F8A202001367FB /* InsertModel.swift in Sources */,
+				4919E6D625F8A213001367FB /* CollectionViewCell.swift in Sources */,
+				4919E6DF25F8A2A7001367FB /* CollectionViewController.swift in Sources */,
 				3295AC5425E7998800292F7A /* AppDelegate.swift in Sources */,
+				4919E6E225F8A2C9001367FB /* EmptyCardViewController.swift in Sources */,
 				3295AC7125E7CB9B00292F7A /* DBLoginCheck.swift in Sources */,
+				4919E6E525F8A2F5001367FB /* CardViewController.swift in Sources */,
 				3295AC5625E7998800292F7A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
